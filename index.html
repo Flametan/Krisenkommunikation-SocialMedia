@@ -611,61 +611,6 @@
       line-height: 1.6;
     }
 
-    /* ── QR SECTION ── */
-    .qr-section {
-      padding: 6rem 3rem;
-      background: var(--dark2);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
-    .qr-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 4rem;
-      align-items: center;
-    }
-    .qr-image-wrap {
-      position: relative;
-    }
-    .qr-image-wrap img {
-      width: 220px;
-      height: 220px;
-      object-fit: contain;
-      display: block;
-      filter: drop-shadow(0 0 30px rgba(192,57,43,0.3));
-    }
-    .qr-glow {
-      position: absolute;
-      inset: -20px;
-      background: radial-gradient(circle, rgba(192,57,43,0.15) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .qr-text h2 {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: 2rem;
-      margin-bottom: 0.75rem;
-    }
-    .qr-text p {
-      color: var(--muted);
-      line-height: 1.7;
-      max-width: 480px;
-      margin-bottom: 1.5rem;
-    }
-    .qr-instruction {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.8rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--accent);
-      border: 1px solid var(--accent);
-      padding: 0.5rem 1rem;
-    }
-
     /* ── AUTOREN ── */
     .autoren-grid {
       display: grid;
@@ -1110,7 +1055,8 @@
 
   
 <!-- DOWNLOAD -->
-<div style="border-top: 1px solid var(--border); padding: 5rem 3rem; text-align: center; background: var(--dark2);">
+<section id="download" class="fade-in">
+  <div style="border-top: 1px solid var(--border); padding: 5rem 3rem; text-align: center; background: var(--dark2);">
   <div style="max-width: 600px; margin: 0 auto;">
     <div style="font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem;">Projektarbeit</div>
     <h2 style="font-family: 'Syne', sans-serif; font-weight: 700; font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.15; margin-bottom: 1rem;">Handout herunterladen</h2>
